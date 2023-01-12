@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 50rem;
+    width: 37.5;    
+}
+
+#primera {
+    background-color: #f1f1f1;
+    padding: 1rem;
+}
+
+#segunda {
+    background-color: #222221;
+    color: #eeeeee;
+    padding: 1rem;
+}
+
+div.div-imagen {
+    border: 0.2rem solid #FFFFFF;
+    border-radius: 50%;
+}
+
+div img {
+    border-radius: 50%;
+}
+
+ul.contacto {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+li:before {
+    
+    content: 'arrow_right';
+    font-family: 'Material Icons';
+}
+
+li.tel:before {
+    content: 'call';
+    font-family: 'Material Icons';
+  }
+
+li.email:before {
+    content: 'email';
+    font-family: 'Material Icons';
+  }
+
+li.home:before {
+    content: 'home';
+    font-family: 'Material Icons';
+  }
+
+li.web:before {
+    content: 'language';
+    font-family: 'Material Icons';
+  }
+
+.linea {
+    display: flex;
+    height: 0.2rem;
+    background-color: #eeeeee;
+    margin: 0.5rem 0 0.5em 0;
+    justify-content: center;
+}
+
+
+h1 {
+    padding: 1rem 1rem 1rem 0;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    padding: 1rem 0.6rem 0.6rem 0;
+}
+
+h4 {
+    padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+p {
+    inline-size: 20em;
+}
